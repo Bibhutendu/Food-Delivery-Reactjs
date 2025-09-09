@@ -1,0 +1,47 @@
+.Appdownload{
+    /* display:flex; */
+    /* align-items: center; */
+    justify-content: center;
+    /* flex-direction: column; */
+    margin: auto auto;
+    margin-top: 20px;
+    font-size: max(3vw,20px);
+    text-align: center;
+    font-weight: 500;
+}
+
+.Appdownload h1{
+    margin-bottom: 10px;
+}
+.Appdownload h2{
+    margin-bottom: 10px;
+}
+
+.platform-download{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: max(2vw,10px);
+    margin-top: 10px;
+}
+
+.Playstore img{
+    width: max(30vw,120px);
+    transition: 0.5s;
+    max-width: 180px;
+    cursor: pointer;
+}
+
+.Appstore img{
+    width: max(30vw,120px);
+    transition: 0.5s;
+    max-width: 180px;
+    cursor: pointer;
+}
+.Appstore:hover{
+    transform:scale(1.05)
+}
+.Playstore:hover{
+    transform:scale(1.05)
+}
